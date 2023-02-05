@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alata&display=swap');
 
 :root {
-    --bg-color--darker: #1F1F1F;
-    --bg-color--dark: #2F2E2E;
-    --bg-color--light: #E9E9E9;
+    --bg-color--darker: #1f1f1f;
+    --bg-color--dark: #2f2e2e;
+    --bg-color--light: #e9e9e9;
 
     --text-color--dark: rgb(30, 30, 30);
-    --text-color--light: #E9E9E9;
+    --text-color--light: #e9e9e9;
 
     --tokyo-color-1: #150a3e;
     --tokyo-color-2: #443184;
@@ -23,20 +23,28 @@
     box-sizing: border-box;
 }
 
-
 .contenedor {
     padding-left: 8%;
     padding-right: 8%;
 }
 
-.text-light{
+.text-light {
     color: var(--bg-color--light);
 }
 
-
-.text-regular-Alata{
+.text-regular-Alata {
     font-family: 'Alata', sans-serif;
 }
 
-.text-regular-Aclonica{
-    font-family: 'Aclonica', sans-serif;}
+.text-regular-Aclonica {
+    font-family: 'Aclonica', sans-serif;
+}
+
+.blur {
+    position: absolute;
+    backdrop-filter: blur(5px);
+    border-radius: 3rem;
+
+    width: 100%;
+    height: 100%;
+}

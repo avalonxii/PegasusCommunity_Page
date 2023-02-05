@@ -30,7 +30,7 @@ export default function Navbar() {
 
             <li>
                 <Link to={'/'} className="lnk text-light">
-                    Baile
+                    Dance
                 </Link>
                 <span className='barra neon-pink'></span>
             </li>
@@ -44,7 +44,7 @@ export default function Navbar() {
 
             <li>
                 <Link to={'/'} className="lnk text-light">
-                    Contáctanos
+                    Contact Us
                 </Link>
                 <span className='barra neon-orange'></span>
             </li>
