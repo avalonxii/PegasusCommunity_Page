@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Title from './Title'
-import Timer from './Timer'
-import GimmeGimme from './GimmeGimme'
+import ContenedorTimer from './ContenedorTimer'
 import './header.css'
+import './timer.css'
+import Slider from './Slider'
 
 export default function header() {
     return (
@@ -12,9 +13,9 @@ export default function header() {
                 <Title />
                 <Navbar />
             </div>
-            <div className="contenedor slider">
-                <Timer />
-                <GimmeGimme />
+            <div className="slider">
+                <ContenedorTimer />
+                <Slider/>
             </div>
         </div>
     )

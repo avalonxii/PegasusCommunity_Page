@@ -23,6 +23,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .contenedor {
     padding-left: 8%;
     padding-right: 8%;
